@@ -6,7 +6,7 @@ const {readdirSync} = require('fs')
 const { route } = require('./routes/transaction')
 require ('dotenv').config()
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT 
 
 
 app.use(express.json())
